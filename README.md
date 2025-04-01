@@ -23,4 +23,8 @@ the server code is in main.ts - which you can run and connect with claude by upd
 
 
 ## Client - when you want to have your own client and not use vscode or claude desktop
-
+How to run the client 
+``` sh 
+cd client 
+deno run --allow-env --env-file=.env main.ts
+```
